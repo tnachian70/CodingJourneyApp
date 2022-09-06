@@ -1,0 +1,107 @@
+.Homepage__container {
+    color: #191847;
+}
+
+.Homepage__header {
+    position: absolute;
+    width: 968px;
+    height: 77px;
+    margin-left: 0%;
+    margin-top: 5%;
+
+    font-size: 50px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 77px;
+
+    transition: all .2s ease-in-out; 
+}
+
+.Homepage__header:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #191847;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .Homepage__header:hover:after { 
+    width: 82%; 
+    left: 8%; 
+  }
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+.Homepage__introPara {
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    margin-left: 10%;
+    margin-top: 15%;
+    margin-bottom: 2%;
+
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 44px;
+    text-align: left;
+}
+
+.Homepage_codergirlImg {
+    position: relative;
+    width: 549px;
+    height: 516px;
+    margin-left: 53%;
+    margin-top: 6.5%;
+    /* margin-bottom: 10%; */
+
+    transition: all .2s ease-in-out; 
+    z-index: 100;
+}
+
+.Homepage_codergirlImg:hover {
+    transform: scale(1.02);
+}
+
+.Homepage__getStartedButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 12px;
+    background-color: #8aa4df44;
+    border: 1.3px solid #1e2948;
+    border-radius: 2.5px;
+
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    margin-top: -11%;
+    margin-bottom: 8%;
+    margin-left: 22%;
+
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: all .2s ease-in-out; 
+}
+
+.Homepage__getStartedButton:hover {
+    box-shadow: 0 0 40px 40px #8aa4df inset;
+    transform: scale(1.05); 
+  }
