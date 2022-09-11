@@ -1,0 +1,256 @@
+body {
+    color: #191847;
+}
+
+.Dashboard__searchbar {
+    position: absolute;
+    width: 410px;
+    height: 22px;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-left: 4.5%;
+    border: 1.3px solid #1e2948;
+    border-radius: 3px;
+    background: url('../../src/images/searchIcon.svg') no-repeat scroll 5px 3px;
+    background-size: 16px;
+    padding-left: 30px;
+    font-size: large;
+}
+
+.Dashboard__signOutButton {
+    padding: 4px;
+    gap: 12px;
+    background-color: #8aa4df44;
+    border: 1.3px solid #1e2948;
+    border-radius: 2.5px;
+    margin-left: 77.5%;
+    margin-top: 4%;
+    font-size: large;
+    width: 10%;
+    height: 4%;
+
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: all .2s ease-in-out; 
+}
+
+.Dashboard__signOutButton:hover {
+    box-shadow: 0 0 40px 40px #8aa4df inset;
+    transform: scale(1.05); 
+  }
+
+.Dashboard_greetingHeader {
+    position: absolute;
+    width: 757px;
+    height: 135px;
+    margin-left: 9%;
+    margin-top: 4%;
+
+    font-size: 42px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 77px;
+    
+    background-color: #8aa4df;
+    text-align: start;
+    padding-left: 30px;
+    border-radius: 17px;
+
+    transition: all .2s ease-in-out;
+    z-index: -100;
+}
+
+.Dashboard__thinkingImg {
+    height: 275px;
+    width: 310px;
+    margin-top: -18.5%;
+    margin-left: 6%;
+
+    transition: all .2s ease-in-out;
+}
+
+.Dashboard__thinkingImg:hover {
+    transform: scale(1.02);
+}
+
+.Dashboard__greetingQuestion {
+    /* position: absolute; */
+    width: 968px;
+    height: 77px;
+    /* margin-left: -15%;
+    margin-top: -8.5%; */
+    margin-left: -15%;
+    margin-top: 8.3%;
+
+    font-size: 23px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77px;
+
+    transition: all .2s ease-in-out;
+}
+
+.Dashboard__myFoldersContainer {
+    text-align: center;
+}
+
+.Dashboard__recentNotesContainer {
+    text-align: center;
+}
+
+.Dashboard__contentContainer {
+    display: grid;
+}
+
+.Dashboard__folderHeader {
+    /* position: absolute; */
+    width: 968px;
+    height: 77px;
+    margin-left: -21.5%;
+    margin-top: -5%;
+
+    font-size: 27px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 77px;
+
+    transition: all .2s ease-in-out;
+}
+
+.Dashboard__createFolderContainer {
+    margin-left: 11.5%;
+    margin-top: 0%;
+    /* background-color: #8aa4df; */
+    border: 1.5px dashed #191847;
+    background-color: #c2ceea;
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-left: 22px;
+    padding-right: 20px;
+
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: all .2s ease-in-out; 
+}
+
+.Dashboard__createFolderContainer:hover {
+    box-shadow: 0 0 45px 45px #8aa4df inset;
+    transform: scale(1.05); 
+}
+
+.Dashboard__createFolderPrompt {
+    text-align: start;
+    font-size: 20px;
+}
+
+.Dashboard__createNoteContainer {
+    margin-left: 11.5%;
+    margin-top: 8.5%;
+    margin-bottom: 7%;
+    /* background-color: #8aa4df; */
+    border: 1.5px dashed #191847;
+    background-color: #c2ceea;
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-left: 22px;
+    padding-right: 20px;
+
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: all .2s ease-in-out; 
+}
+
+.Dashboard__createNoteContainer:hover {
+    box-shadow: 0 0 45px 45px #8aa4df inset;
+    transform: scale(1.05); 
+}
+
+.Dashboard__createNotePrompt {
+    text-align: start;
+    font-size: 20px;
+}
+
+.Dashboard__plusImg {
+    height: 17%;
+    /* height: 26%;
+    width: 32%; */
+    padding: 6px;
+    border-radius: 18px;
+    /* background-color: #c2ceea; */
+    border: 1px solid #191847;
+}
+
+.Dashboard__recentNotesHeader {
+    position: absolute;
+    width: 968px;
+    height: 77px;
+    margin-left: -20.5%;
+    /* margin-top: 26%; */
+
+    font-size: 27px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 77px;
+
+    transition: all .2s ease-in-out;
+}
+
+.Dashboard__noRecentNotesMessage {
+    position: absolute;
+    width: 968px;
+    height: 77px;
+    margin-left: -16.5%;
+    margin-top: 8.5%;
+
+    font-size: 20px;
+}
+
+.Dashboard__navBarContainer {
+    margin-left: 83.5%;
+    margin-top: -16.5%;
+    text-align: left;
+}
+
+.Dashboard__navBarElementsDiv {
+    text-align: left;
+    transition: all .2s ease-in-out; 
+    height: 60px; 
+}
+
+.Dashboard__navBarElementsDiv:hover {
+    transform: scale(1.05); 
+}
+
+.Dashboard__navBarHomeImg {
+    height: 33px;
+    width: 145px;
+}
+
+.Dashboard__navBarFoldersImg {
+    height: 32px;
+    width: 140px;
+}
+
+.Dashboard__navBarNotesImg {
+    height: 29.8px;
+    width: 135px; 
+}
+
+.Dashboard__navBarFavoritesImg {
+    height: 36px;
+    width: 135px;
+}

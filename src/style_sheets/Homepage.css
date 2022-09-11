@@ -7,7 +7,7 @@
     width: 968px;
     height: 77px;
     margin-left: 0%;
-    margin-top: 5%;
+    margin-top: 3%;
 
     font-size: 50px;
     /* font-family: 'Inter'; */
@@ -15,7 +15,7 @@
     font-weight: 600;
     line-height: 77px;
 
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
 .Homepage__header:after {    
@@ -31,8 +31,11 @@
     width: 0;
   }
   .Homepage__header:hover:after { 
-    width: 82%; 
-    left: 8%; 
+    width: 75%; 
+    left: 12%; 
+  }
+  .Homepage__header:hover {
+    transform: scale(1.02);
   }
 
 @media screen and (max-height: 300px) {
@@ -46,7 +49,7 @@
     width: 600px;
     height: 320px;
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 12%;
     margin-bottom: 2%;
 
     /* font-family: 'Inter'; */
@@ -59,11 +62,11 @@
 
 .Homepage_codergirlImg {
     position: relative;
-    width: 549px;
-    height: 516px;
+    width: 529px;
+    height: 500px;
     margin-left: 53%;
-    margin-top: 6.5%;
-    /* margin-bottom: 10%; */
+    margin-top: 4.5%;
+    margin-bottom: 5%;
 
     transition: all .2s ease-in-out; 
     z-index: 100;
@@ -77,16 +80,16 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 8px;
+    padding: 12px;
     gap: 12px;
     background-color: #8aa4df44;
     border: 1.3px solid #1e2948;
     border-radius: 2.5px;
 
     position: absolute;
-    width: 150px;
-    height: 45px;
-    margin-top: -11%;
+    width: 200px;
+    height: 60px;
+    margin-top: -15%;
     margin-bottom: 8%;
     margin-left: 22%;
 
@@ -104,4 +107,8 @@
 .Homepage__getStartedButton:hover {
     box-shadow: 0 0 40px 40px #8aa4df inset;
     transform: scale(1.05); 
+  }
+
+  .Homepage__googleLogo {
+    height: 40px;
   }
